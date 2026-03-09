@@ -1,0 +1,13 @@
+name: GithubActionsDevOpscourse
+on: push
+jobs:
+  DevOps-Course-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo"IrunmyfirstGithubActions"
+      - name: Showuptime
+        run: uptime
+      - name: WhereamI?
+        run: pwd
+      - name: WhoamI?
+        run:whoami
