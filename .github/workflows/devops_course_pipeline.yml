@@ -10,4 +10,4 @@ jobs:
       - name: WhereamI?
         run: pwd
       - name: WhoamI?
-        run:whoami
+        run: whoami
